@@ -1191,6 +1191,9 @@ module.exports = {
     WebGLRenderTargetCube: {
         relativePath: './renderers/WebGLRenderTargetCube',
     },
+    WebGLMultisampleRenderTarget: {
+        relativePath: './renderers/WebGLMultisampleRenderTarget',
+    },
     WebGLRenderer: {
         relativePath: './renderers/WebGLRenderer',
         properties: {
