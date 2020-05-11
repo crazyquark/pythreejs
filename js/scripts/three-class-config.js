@@ -1313,6 +1313,21 @@ module.exports = {
         },
         constructorArgs: [ 'data', 'format', 'type', 'mapping', 'wrapS', 'wrapT', 'magFilter', 'minFilter', 'anisotropy' ],
     },
+    DataTexture2DArray: {
+        relativePath: './textures/DataTexture2DArray',
+        superClass: 'Texture',
+        properties: {
+            // this.image = { data: data, width: width, height: height, depth: depth };
+            data:            new Types.ArrayBuffer(),
+            // width:           new Types.Int(0),   // inferred from data
+            // height:          new Types.Int(0),   // inferred from data
+            minFilter:       new Types.Enum('Filters', 'NearestFilter'), // override default
+            magFilter:       new Types.Enum('Filters', 'NearestFilter'), // override default
+            flipY:           new Types.Bool(false), // override default
+            generateMipmaps: new Types.Bool(false),
+        },
+        constructorArgs: [ 'data', 'format', 'type', 'mapping', 'wrapS', 'wrapT', 'magFilter', 'minFilter', 'anisotropy' ],
+    },
     DepthTexture: {
         relativePath: './textures/DepthTexture',
         superClass: 'Texture',
