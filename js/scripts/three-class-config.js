@@ -1983,6 +1983,17 @@ module.exports = {
         constructorArgs: ['object', 'size', 'color', 'linewidth'],
         propsDefinedByThree: ['matrixAutoUpdate']
     },
+    PositionalAudioHelper: {
+        relativePath: './helpers/PositionalAudioHelper',
+        superClass: 'Object3D',
+        properties: {
+            audio:                  new Types.ThreeType('PositionalAudio'),
+            range:                  new Types.Float(1.0),
+            divisionsInnerAngle:    new Types.Float(16),
+            divisionsOuterAngle:    new Types.Float(2),
+
+        }
+    },
     // TODO:
     ImmediateRenderObject: {
         todo: true,
