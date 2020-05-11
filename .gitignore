@@ -35,3 +35,6 @@ docs/source/examples/img
 
 js/lab-dist
 js/package-lock.json
+
+# For virtualenvs
+.venv
