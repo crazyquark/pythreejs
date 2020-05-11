@@ -191,6 +191,7 @@ var ToneMappings = {
     2: 'ReinhardToneMapping',
     3: 'Uncharted2ToneMapping',
     4: 'CineonToneMapping',
+    5: 'ACESFilmicToneMapping',
 };
 
 var LoopModes = {
@@ -215,6 +216,12 @@ var DrawModes = {
     0: 'TrianglesDrawMode',
     1: 'TriangleStripDrawMode',
     2: 'TriangleFanDrawMode',
+};
+
+var MOUSE = {
+    : 'LEFT',
+    : 'MIDDLE',
+    : 'RIGHT',
 };
 
 module.exports = {
@@ -243,4 +250,5 @@ module.exports = {
     InterpolationModes: InterpolationModes,
     EndingModes: EndingModes,
     DrawModes: DrawModes,
+    MOUSE: MOUSE,
 };

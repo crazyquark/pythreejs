@@ -208,6 +208,7 @@ ToneMappings = EnumNamespace(
     ReinhardToneMapping='ReinhardToneMapping',
     Uncharted2ToneMapping='Uncharted2ToneMapping',
     CineonToneMapping='CineonToneMapping',
+    ACESFilmicToneMapping='ACESFilmicToneMapping',
 )
 
 LoopModes = EnumNamespace(
@@ -232,4 +233,10 @@ DrawModes = EnumNamespace(
     TrianglesDrawMode='TrianglesDrawMode',
     TriangleStripDrawMode='TriangleStripDrawMode',
     TriangleFanDrawMode='TriangleFanDrawMode',
+)
+
+MOUSE = EnumNamespace(
+    LEFT='LEFT',
+    MIDDLE='MIDDLE',
+    RIGHT='RIGHT',
 )

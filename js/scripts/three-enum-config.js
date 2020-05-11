@@ -198,6 +198,7 @@ var ToneMappings = [
     "ReinhardToneMapping",
     "Uncharted2ToneMapping",
     "CineonToneMapping",
+    "ACESFilmicToneMapping",
 ];
 
 // Animation constants
@@ -228,6 +229,11 @@ var DrawModes = [
     "TriangleFanDrawMode",
 ];
 
+var MOUSE = [
+    "LEFT",
+    "MIDDLE",
+    "RIGHT",
+];
 
 module.exports = {
     Equations: Equations,
@@ -255,4 +261,5 @@ module.exports = {
     InterpolationModes: InterpolationModes,
     EndingModes: EndingModes,
     DrawModes: DrawModes,
+    MOUSE: MOUSE,
 };
